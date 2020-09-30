@@ -1,0 +1,162 @@
+/***********************************html elements *****************************/
+a {
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/* possible margins written out  */
+div {
+  /* margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0px; */
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  width: 20%;
+  margin: 30px auto 0;
+  font-family: 'Parisienne', cursive;
+  /* font-family: 'Rock Salt', cursive; */
+  font-size: 3rem;
+  color: #66BFBF;
+  }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #132743;
+  margin: 0.5rem 0.5rem 0.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  color: #132743;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.1rem;
+  }
+
+select {
+  font-family: 'Merriweather', serif;
+}
+
+/************************************** classes********************************/
+.aboutMe{
+  font-size: 1.1rem;
+  margin-bottom: 12rem;
+}
+.backend-imgs{
+  display: inline;
+}
+.backend-skills-img {
+  width: 46%;
+  float: left;
+  position: relative;
+  top:-60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+  width: auto;
+  height: 3rem;
+}
+
+.bottom-container {
+  background-color: #00bcd4;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn{
+  color:#132743;
+}
+
+.contact-me {
+  background-color: #00bcd4;
+  padding-top: 10px;
+  padding-bottom: 1em;
+}
+
+.frontend-skills-img {
+  width: 27%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  top:-15px;
+
+}
+
+.languages-img{
+  width:45%;
+  float:left;
+  margin-right: 20px;
+  position: relative;
+  top:10px;
+  left:-35px;
+}
+
+.middle-container {
+  background-color: #7fdbda;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  color: #66BFBF;
+  line-height: 2;
+  margin: 0.5rem 0.5rem 3rem;
+
+}
+.profile-img{
+  margin-top: 3rem;
+}
+.rdms {
+  text-decoration: underline;
+}
+
+.skills {
+  position: relative;
+}
+
+.skill-row {
+  width: 63%;
+  margin: 85px auto;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  width:auto;
+  height: 3rem;
+  }
+
+.top-container {
+  background-color: #bbe1fa;
+  padding-top: 100px;
+}
+
+.translated {
+  visibility: hidden;
+}
