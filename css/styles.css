@@ -1,6 +1,6 @@
 /***********************************html elements *****************************/
 a {
-  color: #11999E;
+  color: #00bcd4;
 }
 
 body {
@@ -33,7 +33,7 @@ h2 {
   font-size: 2rem;
   font-weight: 100;
   color: #132743;
-  margin: 0.5rem 0.5rem 0.5rem;
+  margin: 1.5rem 0.5rem 0.5rem;
 }
 
 h3 {
@@ -70,6 +70,13 @@ select {
   position: relative;
   top: -60px;
 }
+.before-skills{
+  margin-top: 0.5em;
+  border-style: dotted none none none;
+  border-color: #272343;
+  border-width: 10px;
+  width: 6%;
+}
 
 .bottom-cloud {
   position: absolute;
@@ -89,6 +96,38 @@ select {
 .btn {
   color: #132743;
 }
+.button-contact-me {
+  background: #132743;
+  background-image: linear-gradient(top,
+     #132743,
+     /* #1E62D0 */
+     #00bcd4);
+  background-image: linear-gradient(to bottom, #132743,
+    /* #1E62D0 */
+    #00bcd4);
+  border-radius: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color:#FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 2rem;
+  box-shadow: 1px 1px 1rem 0 #000000;
+  text-shadow: 0 0 18px #000000;
+  border: solid #0059A0 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-contact-me:hover {
+  border: solid #0059A0 1px;
+  background: #00BCD4;
+  background-image: linear-gradient(top, #00BCD4, #132743);
+  background-image: linear-gradient(to bottom, #00BCD4, #132743);
+  text-decoration: none;
+}
+
 
 .contact-me {
   background-color: #00bcd4;
@@ -138,7 +177,9 @@ select {
 .skills {
   position: relative;
 }
-
+.skills-bottom{
+  margin-bottom: 0;
+}
 .skill-row {
   width: 63%;
   margin: 85px auto;
