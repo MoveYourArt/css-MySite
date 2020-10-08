@@ -1,6 +1,11 @@
 /***********************************html elements *****************************/
 a {
   color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 div {
   /* margin-top: 0;
   margin-bottom: 10px;
-  margin-left: 0;
+  margin-left: 0; and so on
   margin-right: 0px; */
   margin: 0;
   position: relative;
@@ -98,13 +103,8 @@ select {
 }
 .button-contact-me {
   background: #132743;
-  background-image: linear-gradient(top,
-     #132743,
-     /* #1E62D0 */
-     #00bcd4);
-  background-image: linear-gradient(to bottom, #132743,
-    /* #1E62D0 */
-    #00bcd4);
+  background-image: linear-gradient(top, #132743, #00bcd4);
+  background-image: linear-gradient(to bottom, #132743, #00bcd4);
   border-radius: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   color:#FFFFFF;
@@ -123,12 +123,19 @@ select {
 .button-contact-me:hover {
   border: solid #0059A0 1px;
   background: #00BCD4;
-  background-image: linear-gradient(top, #00BCD4, #132743);
-  background-image: linear-gradient(to bottom, #00BCD4, #132743);
+  /* background-image: linear-gradient(top, #00BCD4, #132743);
+  background-image: linear-gradient(to bottom, #00BCD4, #132743); */
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
   text-decoration: none;
 }
 
+.copyright{
+/* color:#eaf6f6;	 */
+color:#132743;
+font-size: 0.85rem;
 
+}
 .contact-me {
   background-color: #00bcd4;
   padding-top: 10px;
